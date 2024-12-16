@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Achievelt Task</title>
+</head>
+<body id="loginb">
+    <section id="loginform">
+        <div id="login" class="active">
+            <form action="register.php" method="post">
+                <h1>Registre-se</h1>
+
+                <!-- Email -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <!-- Nome de usuário -->
+                <label for="user">Nome de usuário</label>
+                <input type="text" name="user" id="user" required>
+
+                <!-- Senha -->
+                <label for="pass">Senha</label>   
+                <input type="password" name="pass" id="pass" required>
+
+                <!-- Confirmar senha -->
+                <label for="passconfirm">Confirmar a senha</label>
+                <input type="password" name="passconfirm" id="passconfirm" required>
+
+                <!-- Botão de envio -->
+                <button type="submit">Registrar-se</button>
+
+                <!-- Link para Login -->
+                <div>
+                    <a href="login.html">Fazer login</a>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

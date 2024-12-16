@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Tarefas</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <!-- Container Principal -->
+    <div class="dashboard-container">
+        <!-- Menu Lateral -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="user.jpg" alt="Foto do Usuário">
+            </div>
+            <nav>
+                <ul>
+                    <li><span>🏠</span> Início</li>
+                    <li><span>🏆</span> Conquistas</li>
+                    <li><span>📝</span> Tarefas</li>
+                    <li><span>🛒</span> Loja</li>
+                </ul>
+            </nav>
+            <div class="settings">
+                ⚙️
+            </div>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <!-- Cards de Tarefas -->
+            <div class="cards-container">
+                <div class="card pink">
+                    <h3>TAREFAS CRIADAS</h3>
+                    <p>54</p>
+                </div>
+                <div class="card purple">
+                    <h3>TAREFAS A FAZER</h3>
+                    <p>22</p>
+                </div>
+                <div class="card yellow">
+                    <h3>TAREFAS PARA ANALISAR</h3>
+                    <p>20</p>
+                </div>
+                <div class="card green">
+                    <h3>TAREFAS CONCLUÍDAS</h3>
+                    <p>12</p>
+                </div>
+            </div>
+
+            <!-- Gráficos -->
+            <div class="charts-container">
+                <div class="chart">
+                    <h3>GRÁFICO DE ATIVIDADE DA EQUIPE</h3>
+                    <img src="grafico-equipe.png" alt="Gráfico da Equipe">
+                </div>
+                <div class="chart">
+                    <h3>GRÁFICO DE ATIVIDADE DO USUÁRIO</h3>
+                    <img src="grafico-usuario.png" alt="Gráfico do Usuário">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
