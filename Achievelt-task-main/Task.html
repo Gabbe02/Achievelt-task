@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro Kanban</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+   
+
+    <!-- Barra lateral com ícones -->
+    <div class="sidebar">
+        <!-- Logo no canto superior esquerdo -->
+    <div class="sidebar-item">
+        <img src="assets/processed_image__1_-removebg.png" alt="Logo" class="logo">
+    </div>
+
+        <a href="#" class="sidebar-item">
+            <img src="assets\casa.jpg" alt="Ícone 1" class="icon">
+        </a>
+        <a href="#" class="sidebar-item">
+            <img src="assets\relatorio.jpg" alt="Ícone 2" class="icon">
+        </a>
+        <a href="#" class="sidebar-item">
+            <img src="assets\trofeu.jpg" alt="Ícone 3" class="icon">
+        </a>
+    </div>
+
+    <!-- Conteúdo do Kanban -->
+    <div class="kanban">
+        <div class="coluna">
+            <div class="coluna-header ideias">Ideias</div>
+            <div class="coluna-conteudo"></div>
+            <a href="#" class="editar">editar</a>
+        </div>
+
+        <div class="coluna">
+            <div class="coluna-header afazer">A Fazer</div>
+            <div class="coluna-conteudo">
+                <div class="post-it">Tarefa 1: Escrever relatório</div>
+                <div class="post-it">Tarefa 2: Revisar código</div>
+                <div class="post-it">Tarefa 3: Preparar apresentação</div>
+            </div>
+            <a href="#" class="editar">editar</a>
+        </div>
+
+        <div class="coluna">
+            <div class="coluna-header fazendo">Fazendo</div>
+            <div class="coluna-conteudo"></div>
+            <div class="post-it">Relatório da Reunião</div>
+            <a href="#" class="editar">editar</a>
+        </div>
+
+        <div class="coluna">
+            <div class="coluna-header analise">Análise</div>
+            <div class="coluna-conteudo"></div>
+            <div class="post-it">Criar Banco de Dados</div>
+            <a href="#" class="editar">editar</a>
+        </div>
+
+        <div class="coluna">
+            <div class="coluna-header feito">Feito</div>
+            <div class="coluna-conteudo"></div>
+            <a href="#" class="editar">editar</a>
+        </div>
+    </div>
+</body>
+</html>
